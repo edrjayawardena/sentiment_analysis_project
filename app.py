@@ -1,6 +1,6 @@
 from flask import Flask, render_template,request, redirect
 from helper import preprocessing, vectorizer, get_prediction
-import logging  # Use Python's built-in logging module
+import logging
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
